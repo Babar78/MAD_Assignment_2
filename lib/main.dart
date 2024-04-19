@@ -1,3 +1,4 @@
+import 'package:assignment_2/home_screen.dart';
 import 'package:assignment_2/login_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -18,6 +19,10 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: const LoginScreen(),
+      routes: {
+        '/login': (context) => const LoginScreen(),
+        '/home' :  (context) => const HomeScreen(),      
+        }
     );
   }
 }
