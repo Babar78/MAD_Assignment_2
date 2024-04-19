@@ -38,13 +38,11 @@ class _LoginScreenState extends State<LoginScreen> {
           const Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              FlutterLogo(
-                size: 100,
+              CircleAvatar(
+                radius: 50,
+                backgroundImage: NetworkImage(
+                    'https://img.freepik.com/free-vector/bird-colorful-gradient-design-vector_343694-2506.jpg?size=338&ext=jpg&ga=GA1.1.1700460183.1713484800&semt=ais'),
               ),
-              Text(
-                "Flutter",
-                style: TextStyle(fontSize: 60, color: Colors.grey),
-              )
             ],
           ),
           Form(
