@@ -19,16 +19,17 @@ class HomeScreen extends StatelessWidget {
             const SizedBox(height: 20),
             const CircleAvatar(
               radius: 50,
-              backgroundImage: NetworkImage('https://via.placeholder.com/150'),
+              backgroundImage: NetworkImage(
+                  'https://img.freepik.com/free-vector/bird-colorful-gradient-design-vector_343694-2506.jpg?size=338&ext=jpg&ga=GA1.1.1700460183.1713484800&semt=ais'),
             ),
             const SizedBox(height: 10),
-            const Text('Mr. John Smith',
+            const Text('Mr. Babar',
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
             const SizedBox(height: 20),
             const ListTile(
               leading: Icon(Icons.phone),
               title: Text('Phone'),
-              subtitle: Text('9933775566'),
+              subtitle: Text('+92 315 7814849'),
             ),
             ListTile(
               leading: const Icon(Icons.email),
@@ -46,8 +47,7 @@ class HomeScreen extends StatelessWidget {
             const ListTile(
               leading: Icon(Icons.location_on),
               title: Text('Address'),
-              subtitle: Text(
-                  'fort suit - 30 united state fort suit - 30 united state'),
+              subtitle: Text('Razi 1, NUST H-12, Isalamabad, Pakistan'),
             ),
             const SizedBox(height: 20),
             ElevatedButton(
